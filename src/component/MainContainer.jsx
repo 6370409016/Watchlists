@@ -33,9 +33,9 @@ function MainContainer() {
                     setErrorMessage('Movie not found. Please search a valid movie name.');
                 }
             })
-            .catch(() => {
+            .catch((e) => {
                 setIsValidRequest(false);
-                setErrorMessage('Error fetching movie data.');
+                setErrorMessage(`Error fetching movie data. ${e}`);
             });
     };
     return (
