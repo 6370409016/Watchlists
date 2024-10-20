@@ -1,0 +1,45 @@
+.watchlists-container {
+  width: 100vw;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.watchlists-right {
+  display: flex;
+  margin-left: 20%;
+  padding-left: 2%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.watchlists-heading {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin-top: 1vh;
+  padding: 1%;
+}
+
+.watchlists-heading h1 {
+  color: red;
+}
+
+.watchlists-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .watchlists-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .watchlists-items {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}

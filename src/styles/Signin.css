@@ -1,0 +1,59 @@
+.signin-details > input {
+    width: 19vw;
+    height: 4vh;
+    margin: 1vh 0;
+    padding: 1% 2%;
+  }
+  .signin-details > button {
+    width: 20vw;
+    height: 4vh;
+    margin: 1vh 0;
+    padding: 2% 1%;
+  }
+  .signin-page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(245, 250, 255);
+  }
+  
+  .signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: auto;
+    max-height: 50%;
+    width: 30%;
+    margin-top: 8vh;
+    background-color: rgb(210, 217, 232);
+  }
+  
+  .signin-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signin-details label {
+    width: 100%;
+    margin: 1vh 0;
+  }
+  
+  .signUp-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .signUp-details p {
+    margin-right: 0.5vw;
+  }
+  
+  .signUp-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  

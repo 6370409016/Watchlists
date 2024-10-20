@@ -1,0 +1,12 @@
+.watchlist-container {
+  width: 100%;
+  margin: 1vh 0;
+  max-width: 100%;
+  margin-top: 2vh;
+}
+
+.watchlist-container > button {
+  height: 5vh;
+  width: 100%;
+}
+

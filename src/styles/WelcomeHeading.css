@@ -1,0 +1,8 @@
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: auto;
+  border: 1px solid;
+  padding: 2%;
+}

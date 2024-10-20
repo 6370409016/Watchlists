@@ -1,0 +1,36 @@
+.main-container {
+  width: 75%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20%; 
+  padding: 2%;
+}
+
+.welcome-heading {
+  display: flex;
+  width: auto;
+  margin: 1%;
+}
+
+.movie-searchbar {
+  display: flex;
+  width: auto;
+  margin: 1%;
+}
+
+.movie-searchbar > input {
+  padding: 1% 2%;
+}
+
+.movie-searchbar > button {
+  margin-left: 1%;
+  padding: 1%;
+}
+
+.moviescards {
+  display: flex;
+  margin: 1%;
+  height: 20%;
+}

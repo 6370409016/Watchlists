@@ -1,0 +1,8 @@
+.home {
+  display: flex;
+  height: auto;
+  width: 100vw;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #ffffff;
+}
