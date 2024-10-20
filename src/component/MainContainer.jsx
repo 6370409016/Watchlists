@@ -14,7 +14,7 @@ function MainContainer() {
     const apikey = import.meta.env.VITE_API_KEY;
 
     const movieRequest = () => {
-        let request = `http://www.omdbapi.com/?apikey=${apikey}&t=${movieName}`;
+        let request = `https://www.omdbapi.com/?apikey=${apikey}&t=${movieName}`;
         axios.get(request)
             .then((response) => {
                 // console.log(response.data);
