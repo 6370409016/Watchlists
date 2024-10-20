@@ -48,7 +48,16 @@
 
 .home-btn > button {
   height: 4vh;
+  background-color: #e4e4e4;
+  
 }
+
+.home-btn > button:hover {
+  height: 4vh;
+  background-color: #d6d6d6;
+  
+}
+
 .watchlists {
   display: flex;
   flex-direction: column;

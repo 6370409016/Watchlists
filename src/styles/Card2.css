@@ -26,8 +26,8 @@
 .details2 {
   position: relative;
   display: flex;
-  flex-direction: column; 
-  justify-content: space-between; 
+  flex-direction: column;
+  justify-content: space-between;
   width: 90%;
   text-align: start;
   padding: 5%;
@@ -70,5 +70,5 @@
 .details2 p {
   font-size: 0.7em;
   margin: 3% 0 0;
-  word-wrap: break-word; 
+  word-wrap: break-word;
 }

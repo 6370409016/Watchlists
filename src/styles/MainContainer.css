@@ -1,13 +1,17 @@
 .main-container {
-  width: 72%;
+  width: 75%;
   min-height: 100vh;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  margin-left: 20%; 
-  padding: 2%;
+  margin-left: 20%;
 }
 
+.main-items {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
 .welcome-heading {
   display: flex;
   width: auto;
@@ -17,11 +21,12 @@
 .movie-searchbar {
   display: flex;
   width: auto;
-  margin: 1%;
+  margin-top: 2vh;
+  margin-left: 5vw;
 }
 
 .movie-searchbar > input {
-  padding: 1% 2%;
+  padding: 1% 1%;
 }
 
 .movie-searchbar > button {
@@ -31,6 +36,7 @@
 
 .moviescards {
   display: flex;
-  margin: 1%;
   height: 20%;
+  margin: 2% 0;
+  margin-left: 5vw;
 }

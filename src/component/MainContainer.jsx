@@ -41,6 +41,7 @@ function MainContainer() {
     return (
         <>
             <div className='main-container'>
+
                 <div className='welcome-heading'>
                     <WelcomeHeading />
                 </div>

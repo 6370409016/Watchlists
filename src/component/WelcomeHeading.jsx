@@ -6,7 +6,7 @@ export default function WelcomeHeading() {
     return (
         <>
             <div className='heading-container'>
-                <h1>Welcome to WatchLists</h1>
+                <h1>Welcome to <span>WatchLists</span></h1>
                 <p>Browse movies, add them to your watchlists. <br />
                     Just click the plus sign to add a movie.</p>
                 <div className='signIn-details'>

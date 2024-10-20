@@ -2,6 +2,8 @@
   width: 100vw;
   background-color: aliceblue;
   display: flex;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .watchlists-right {
@@ -11,6 +13,62 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+
+.poster2 > img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.details2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  text-align: start;
+  padding: 5%;
+}
+
+.removeWatchList {
+  justify-content: flex-end;
+}
+
+.details2-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.removeWatchList button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.removeWatchList img {
+  height: 20px;
+  width: 20px;
+}
+
+.details2 h3 {
+  font-size: 0.9em;
+  margin: 1px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.details2-plot {
+  display: flex;
+  width: 100%;
+}
+
+.details2 p {
+  font-size: 0.7em;
+  margin: 3% 0 0;
+  word-wrap: break-word;
 }
 
 .watchlists-heading {
@@ -31,6 +89,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+.watchlists-items > p {
+  margin-left: auto;
+  grid-column: span 3;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
   .watchlists-items {
@@ -40,6 +103,6 @@
 
 @media (max-width: 480px) {
   .watchlists-items {
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
   }
 }
