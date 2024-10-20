@@ -4,13 +4,14 @@ import '../styles/MainContainer.css'
 import axios from 'axios'
 import Card from './Card'
 
+const apikey = import.meta.env.VITE_API_KEY;
 function MainContainer() {
     const [movieName, setMovieName] = useState('');
     const [movieDetails, setMovieDetails] = useState({})
     const [isvalidRequest, setIsValidRequest] = useState(false);
     const [errorMessage, setErrorMessage] = useState('');
 
-    const apikey = import.meta.env.VITE_API_KEY;
+
     const movieRequest = () => {
         let request = `http://www.omdbapi.com/?apikey=${apikey}&t=${movieName}`;
         axios.get(request)
