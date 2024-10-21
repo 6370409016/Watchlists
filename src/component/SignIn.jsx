@@ -64,7 +64,7 @@ function SignIn() {
                         {!isValid && <p>Invalid email format</p>}
                         <button>Submit</button>
                         <div className='signUp-details'>
-                            <p>Already singned up? </p>
+                            <p>You don't have an account? </p>
                             <Link to='/signup' className='signUp-link'>SignUp</Link>
                         </div>
                     </form>
