@@ -38,7 +38,7 @@ function SignIn() {
                     navigate('/');
                 }, 1000);
             } else {
-                alert('Enter Wrong Mail Id');
+                alert('Entered Wrong Mail Id');
             }
 
         } else {
