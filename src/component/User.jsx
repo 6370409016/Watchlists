@@ -18,7 +18,7 @@ function User() {
 
     return (
         <div className='user'>
-            <img src={isSigned ? useronImg : useroffImg} />
+            <img alt="profile-img" src={isSigned ? useronImg : useroffImg} />
             <p>{isSigned ? User : Unknown}</p>
             {isSigned && (<button onClick={removeUser} className='signout-link'><img src={removeIcon} /></button>)}
 
